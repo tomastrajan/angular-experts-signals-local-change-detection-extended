@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+h1,
+h2,
+h3,
+.heebo {
+  font-family: 'Heebo', sans-serif !important;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace !important;
+}

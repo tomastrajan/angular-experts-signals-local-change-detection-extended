@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Angular Signals - Local change detection (OnPush) Example</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .btn {
+          @apply px-2 py-1 min-w-[32px] min-h-[32px] rounded shadow-lg bg-white font-bold;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&family=Gabarito:wght@400;600;900&family=Heebo:wght@700;900&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-200 p-8">
+    <header class="flex justify-between">
+      <a class="flex" href="https://angularexperts.io" target="_blank">
+        <img
+          class="h-16"
+          src="https://angularexperts.io/assets/images/logo/angular-experts.svg"
+          alt="AngularExperts.io"
+        />
+        <div
+          class="
+            heebo
+            flex
+            ml-2
+            md:ml-4
+            flex-col
+            justify-center
+            items-center
+            font-display
+          "
+        >
+          <span class="text-blue-700 text-2xl font-extrabold leading-tight">
+            ANGULAR </span
+          ><span class="text-blue-900 text-xl leading-tight font-extrabold"
+            >EXPERTS</span
+          >
+        </div>
+      </a>
+      <a
+        class="inline-flex gap-2 items-center"
+        href="https://x.com/tomastrajan"
+        target="_blank"
+      >
+        <img
+          class="h-16 rounded-full shadow-lg"
+          src="https://angularexperts.io/assets/images/experts/tomas-trajan-gde.webp"
+          alt="Tomas Trajan"
+        />
+        <div>
+          <h2 class="font-bold text-xl">Tomas Trajan</h2>
+          <p class="-mt-1 font-bold text-sm text-gray-500">&#64;tomastrajan</p>
+        </div>
+      </a>
+    </header>
+    <ax-root>Loading...</ax-root>
+  </body>
+</html>
